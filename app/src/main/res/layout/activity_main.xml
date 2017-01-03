@@ -15,11 +15,17 @@
     android:text="@string/button_send"
     android:onClick="sendMessage" />
     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/fragment_static_text"
+    android:onClick="sendToFragment"
+    />
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/fragment_text"
+        android:text="@string/fragment_dynamic_text"
         android:onClick="sendToFragment"
-         />
+        />
 
     <LinearLayout android:layout_height="wrap_content"
                   android:layout_width="wrap_content"

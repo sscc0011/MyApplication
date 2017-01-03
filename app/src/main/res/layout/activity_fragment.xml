@@ -4,13 +4,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <fragment android:name="com.example.android.fragments.HeadlinesFragment"
+    <fragment android:name="com.example.myfirstapp.Fragment1"
         android:id="@+id/headlines_fragment"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent" />
 
-    <fragment android:name="com.example.android.fragments.ArticleFragment"
+    <fragment android:name="com.example.myfirstapp.Fragment2"
         android:id="@+id/article_fragment"
         android:layout_weight="2"
         android:layout_width="0dp"

@@ -3,5 +3,6 @@
     <string name="app_name">My First App</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
-    <string name="fragment_text">Fragmet測試頁</string>
+    <string name="fragment_static_text">Fragmet靜態測試頁</string>
+    <string name="fragment_dynamic_text">Fragmet動態測試頁</string>
 </resources>
