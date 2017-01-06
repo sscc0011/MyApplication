@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My First App</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="app_name">SMC價格查詢系統</string>
+
+    <string name="edit_message">輸入型號</string>
+    <string name="edit_username">用戶名</string>
+    <string name="edit_password">密碼</string>
+
+    <string name="button_send">查詢</string>
+
     <string name="fragment_static_text">Fragmet靜態測試頁</string>
     <string name="fragment_dynamic_text">Fragmet動態測試頁</string>
+
+    <string name="hksmc_slt">查詢</string>
+    <string name="hksmc_add">載入數據</string>
 </resources>

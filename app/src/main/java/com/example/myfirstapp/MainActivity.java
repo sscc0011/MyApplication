@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity  {
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
@@ -51,4 +52,25 @@ public class MainActivity extends FragmentActivity  {
     }
 
 
+    public void welcomeToSmc(View view) {
+
+
+        System.out.print("----------------------start---------------------------------");
+        EditText et1= (EditText) findViewById(R.id.edit_username);
+        EditText et2 = (EditText) findViewById(R.id.edit_password);
+
+        String str_et1= et1.getText().toString();
+        String str_et2=et2.getText().toString();
+
+        System.out.print("-------------------------------------------------------"+str_et1);
+        System.out.print("-------------------------------------------------------"+str_et2);
+        if(str_et1.equals("hongkong")||str_et2.equals("123")){
+            Intent intent = new Intent(this,SqliteActivity.class);
+            startActivity(intent);
+        }else {
+            Toast toast = Toast.makeText(getApplicationContext(),"請輸入正確的用戶名密碼",Toast.LENGTH_SHORT);
+            toast.show();
+        }
+
+    }
 }
